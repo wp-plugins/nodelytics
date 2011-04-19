@@ -3,7 +3,7 @@
 Plugin Name: Nodelytics
 Plugin URI: http://www.strx.it/2011/04/nodelytics-node-js-real-time-stats/
 Description: Add Nodelytics code to enable real time statistics for your site
-Version: 1.0.0
+Version: 1.0.1
 Author: Strx
 Author URI: http://www.strx.it
 License: GPL2
@@ -28,7 +28,7 @@ function nodelytics_start(){
 	if (!is_user_logged_in()){
 		//$opts['outline']=0;
 	}
-  echo '<img src="http://nodelytics.strx.it/gif">';
+  echo '<img src="http://nodelytics.strx.it/gif" style="position:fixed; right:0; bottom:0; border:0; margin:0; padding:0; opacity:0;">';
 }
 
 function nodelytics_settings_menu(){
