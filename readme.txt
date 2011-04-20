@@ -4,7 +4,7 @@ Donate link: http://www.strx.it/donate
 Tags: analytics, statistics, access, spy, stats
 Requires at least: 2.0
 Tested up to: 3.1.1
-Stable tag: 1.0.1
+Stable tag: 1.1.0
 
 Simplest way to add Nodelytics code to enable real time statistics
 
@@ -30,6 +30,9 @@ Upload the plugin to your blog, Activate it, Go to http://nodelytics.strx.it/sta
 [Here](http://www.strx.it/2011/04/nodelytics-node-js-real-time-stats/).
 
 == Changelog ==
+
+= 1.1.0 =
+* Update to Script version, with referrer support and realtime presence check
 
 = 1.0.1 =
 * Img styled to be ever more unobtrusive
